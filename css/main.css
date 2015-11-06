@@ -1,0 +1,530 @@
+#wrapper {
+	margin: 0 auto;
+	width: 960px;
+}
+
+* {
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+}
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+nav {
+	float: right;
+	margin-top: 28px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 48px;
+}
+
+ul li {
+	list-style: none;
+}
+
+/* dateicker settings */
+.ui-datepicker {
+    padding: 0.1em 0.1em 0;
+    width: 12em;
+}
+
+.ui-widget {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.ui-datepicker th {
+    border: 0 none;
+    font-weight: normal;
+    padding: 0.2em 0.1em;
+    text-align: center;
+}
+
+.ui-datepicker th span {
+    font-size: 11px;
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+    padding: 0.1em;
+}
+
+.ui-datepicker td {
+    padding: 0.9px;
+}
+
+.ui-datepicker .ui-state-highlight {
+    height: 12px;
+    margin-bottom: 0;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default {
+    font-size: 10px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    line-height: 13px;
+}
+
+.ui-datepicker .ui-datepicker-title span {
+    font-size: 11px;
+}
+
+.ui-datepicker .ui-datepicker-prev span, 
+.ui-datepicker .ui-datepicker-next span {
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+.ui-datepicker .ui-datepicker-prev, 
+.ui-datepicker .ui-datepicker-next {
+    height: 15px;
+    top: 1px;
+    width: 15px;
+}
+
+.ui-datepicker-next-hover .ui-icon {
+    height: 16px;
+    width: 16px;
+}
+
+
+/* end of datepicker settings */
+
+.mid-section {
+	height: 450px;
+	background-color: #2bb89f;
+	padding: 14px;
+}
+
+.mid-section img {
+	float: right;
+	padding: 40px;
+	width: 450px;
+	margin-top: 50px;
+}
+
+.plans table th {
+	font-family: 'Open Sans', sans-serif;
+	border-left: 1px solid #2bb89f;
+    border-right: 1px solid #2bb89f;
+    border-top: 1px solid #2bb89f;
+    color: #3c3c3c;
+    font-size: 26px;
+    height: 90px;
+    background: #f6f6f6;
+    line-height: 120%;
+    border: 1px solid #2bb89f;
+    }
+    
+	
+.plans table th span {
+	color: #2bb89f;
+    font-size: 14px;}
+	
+.plans table tr {
+	height: 30px;
+    text-align: center;}
+	
+.plans table .grey {
+	background-color:#fff;}
+	
+.plans table tr td {
+    font-weight: bold;
+}
+
+	
+#content-panels {
+	padding-top: 20px;
+}
+
+#logOut {
+	color: black;
+}
+	
+.plans .pricing_btn {
+	border-bottom: 1px solid #2bb89f;
+    height: 80px !important;
+	text-align:center;
+}
+	
+
+.plan-types ul li {
+	display: inline;
+}
+	
+.about {
+	font-size: 46px;
+	margin: 0;
+}
+
+.about-section {
+	width: 500px;
+}
+
+.teal-name {
+	color: #2bb89f;
+	font-size: 46px;
+}
+
+.mid-section h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 54px;
+	text-align: center;
+	color: #3c3c3c;
+}
+
+.mid-section .go {
+	font-size: 90px;
+}
+
+.keepsake {
+	color: white;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 58px;
+}
+
+.acc-reg {
+	margin-left: 0;
+	font-size: 24px;
+	padding-top: 10px;
+}
+
+.dash {
+	margin-left: 0;
+}
+
+.dash-link {
+	font-size: 15px !important;
+	text-decoration: underline !important;
+}
+
+.dash img {
+	width: 160px;
+	height: 160px;
+	border: 1px solid #555;
+}
+
+.date {
+	float: right;
+	margin-right: 10px;
+}
+
+.arrow {
+	float: right;
+	height: 30px;
+	width: 30px;
+	margin-right: 65px;
+	margin-top: 32px;
+}
+
+.signup {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px !important;
+	color: #000;
+	text-decoration: underline !important;
+}
+
+a.link {
+	font-size: 15px !important;
+	text-decoration: underline !important;
+	color: #3c3c3c; !important;
+}
+
+a.link:link {
+	color: #2bb89f;
+}
+
+a:link {
+	color: #3c3c3c;
+	font-size: 29px;
+	font-family: 'News Cycle', sans-serif;
+	text-decoration: none;
+}
+
+a:visited:not(.active) {
+	color: #3c3c3c;
+}
+
+.active {
+	color: #2bb89f;
+	font-weight: bold;
+}
+
+
+nav ul li {
+	display: inline;
+	padding: 8px;
+	margin-left: 44px;
+}
+
+#dashboard {
+	width: 960px;
+	border: 2px solid #2bb89f;
+	border-radius: 3px;
+}
+
+#title {
+	background-color: #efefef;
+	border-bottom: 1px solid #b7b7b7;
+	height: 62px;
+}
+
+.title {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 22px;
+}
+
+td ul {
+	margin-left: -50px;
+}
+
+td {
+	line-height: 50px;
+}
+
+td ul li {
+	display: inline;
+}
+
+.page {
+	font-size: 40px;
+	padding-left: 28px;
+	color: #2bb89f;
+	font-family: 'News Cycle', sans-serif;
+}
+
+#content {
+	margin-top: 65px;
+	margin-left: 50px;
+	margin-bottom: 60px;
+}
+
+.panel {
+	margin-left: 44px;
+	height: 90px;
+	width: 771px;
+	border: 1px solid #b7b7b7;
+	background: #2bb89f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d5d5d5 0%, #efefef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2bb89f), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d5d5d5 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d5d5d5 0%,#efefef 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d5d5d5 0%,#efefef 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d5d5d5 0%,#efefef 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2bb89f', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+	margin-bottom: 4px;
+}
+
+.panel2 {
+	margin-left: 44px;
+	height: 90px;
+	width: 771px;
+	border: 1px solid #b7b7b7;
+	background: #2bb89f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #95C4BC 0%, #efefef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#95C4BC), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #95C4BC 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #95C4BC 0%,#efefef 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #95C4BC 0%,#efefef 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #95C4BC 0%,#efefef 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#95C4BC', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+	margin-bottom: 4px;
+	cursor: move;
+}
+
+.highlight {
+	margin: 44px;
+	height: 90px;
+	width: 771px;
+	border: 1px dashed yellow;
+	background-color: #F7F2AB;
+}
+
+.caret {
+    width: 0; 
+    height: 0;
+    border-top: 8px solid #2bb89f;
+    border-left: 8px solid transparent; 
+    border-right: 8px solid transparent;
+    display: none;
+
+}
+
+.loading {
+	height: 20px !important;
+	width: 20px !important;
+	border: none !important;
+}
+
+#regNotify {
+	height: 60px;
+	background-color: #5FD9AC;
+	width: 100%;
+	text-align: center;
+	font-size: 36px;
+	border: 2px dashed #AEF2D9;
+	color: #BAF2AE;
+	text-shadow: 1px 1px 1px #000, 1px 1px 4px #333;
+	display: none;
+}
+
+.button {
+	text-align: center;
+	padding: 3px;
+	color: #ffffff;
+	font-size: 22px;
+	font-family: 'News Cycle', sans-serif;
+	background-color: #29ad8e;
+	border-radius: 5px;
+	width: 14%;
+	float: right;
+	margin-right: 246px;
+}
+
+.delete {
+	text-align: center;
+	padding: 3px;
+	color: #ffffff;
+	font-size: 22px;
+	font-family: 'News Cycle', sans-serif;
+	background-color: #BF2A39;
+	border-radius: 5px;
+	width: 14%;
+	float: right;
+	margin-right: -280px;
+}
+
+.panel h4, .panel p, .panel2 h4, .panel2 p {
+	margin-left: 10px;
+}
+
+.panel h4, .panel2 h4 {
+	margin-top: 9px;
+}
+.panel p, .panel2 p {
+	margin-top: -10px;
+	width: 400px;
+}
+
+.panel a, .panel2 a {
+	font-size: 15px;
+}
+
+button.css3button {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #050505;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#ebebeb 50%,
+		#dbdbdb 50%,
+		#b5b5b5);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffffff),
+		color-stop(0.50, #ebebeb),
+		color-stop(0.50, #dbdbdb),
+		to(#b5b5b5));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #949494;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+
+	position: relative;
+	top: -80px;
+	left: 500px;
+	z-index: 2;
+}
+
+button.css3button2 {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #050505;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#ebebeb 50%,
+		#dbdbdb 50%,
+		#b5b5b5);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffffff),
+		color-stop(0.50, #ebebeb),
+		color-stop(0.50, #dbdbdb),
+		to(#b5b5b5));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #949494;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+}
+
+button.css3button3 {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #050505;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#25CCAE 0%,
+		#25CCAE 50%,
+		#2bb89f 50%,
+		#2bb89f);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffffff),
+		color-stop(0.50, #43E6C2),
+		color-stop(0.50, #30C7AE),
+		to(#b5b5b5));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #949494;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+}

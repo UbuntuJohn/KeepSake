@@ -1,0 +1,40 @@
+<!-- 
+	Put the skeleton HTML for your Application here
+	DO NOT include <html>, <head>, or <body> tags
+	
+	Create a separate template for any repeatable components
+-->
+
+<div>
+
+	<script type="text/template" id="template_app">
+	
+		<!-- core application skeleton html -->
+	
+	</script>
+	
+	
+	<script type="text/template" id="template_task_link">
+	
+		<!-- repeatable html for task menu -->
+
+		<div class="panel">
+	        <h4 class="date">Due Date: {{=dueDate}}</h4>
+	        <img class="arrow" src="images/crossarrow.png" />
+			<h4>{{=taskName}}</h4>
+			<p>{{=taskDesc}}</p>
+        </div>
+	
+	</script>
+	
+	
+	<script type="text/template" id="template_task_view">
+	
+		<!-- repeatable html for full task data in list -->
+	
+	</script>
+	
+	
+	<!-- more component templates here -->
+	
+</div>

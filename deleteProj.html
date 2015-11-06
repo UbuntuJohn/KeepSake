@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Keepsake Project Management</title>
+        <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+    </head>
+
+    <body>
+    	<div id="wrapper">
+    	<header>
+    	<nav>
+    		<ul>
+    			<li><a href="dashboard.html">Home</a></li>
+    			<li><a class="active" href="projects.html">Projects</a> <span class="caret"></span></li>
+    			<li><a href="users.html">Users</a></li>
+    			<li><a name="logOut" id="logOut" href="logout.html">Logout</a></li>
+
+    		</ul>
+    	</nav>
+    		<div class="logo"><a href="index.html"><img src="images/logo.png" /></a></div>
+    	</header>
+    	<div id="dashboard">
+    		<div id="title">
+    			<div class="page">Remove Projects</div>
+    		</div>
+            <div id="dialog-confirm" title="Delete all projects?"></div>
+    		<div id="content">
+    			<h4>Your Projects</h4>
+                <div id="content-panels">
+        			<div class="panel">
+        				<img class="arrow" src="images/crossarrow.png" />
+        				<h4><a href="tasks.html">Project One</a></h4>
+        				<p>This is project one's description, it's nice and short.</p>
+        			</div>
+        			<div class="panel">
+        				<img class="arrow" src="images/crossarrow.png" />
+        				<h4><a href="tasks.html">Project Two</a></h4>
+        				<p>This is project two's description, it's nice and short. But this one
+        					is just a tad bit larger!</p>
+        			</div>
+        			<div class="panel">
+        				<img class="arrow" src="images/crossarrow.png" />
+        				<h4><a href="tasks.html">Project Three</a></h4>
+        				<p>This is project three's description, it's nice and short. However, this one is okay
+        					lengthed.</p>
+        			</div>
+                </div>
+            </div>
+    	</div>
+    	<footer>
+    		<p>Copyright &copy; 2014 - Keepsake Project Management</p>
+    	</footer>
+    </div>
+    <script type="text/javascript" src="js/plugins/fadeAway1.0.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

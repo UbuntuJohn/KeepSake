@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Keepsake Project Management</title>
+        <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+
+    <body>
+    	<div id="wrapper">
+    	<header>
+    	<nav>
+    		<ul>
+    			<li><a class="active" href="index.html">Home</a></li>
+    			<li><a href="plans.html">Plans</a></li>
+    			<li><a href="about.html">About</a></li>
+    			<li><a href="login.html">Login</a></li>
+    		</ul>
+    	</nav>
+    		<div class="logo"><a href="index.html"><img src="images/logo.png" /></a></div>
+    	</header>
+    	<section>
+            <div id="regNotify">Account Successfully Created!</div>
+            <h2 class="about">Account <span class="teal-name">Registration</span></h2>
+            <p>Already a member? <a class="signup" href="login.html">Login</a></p>
+            <form action="" method="post">
+            <table border="0" width="52%">
+                <tr>
+                    <td class="title">Username:</td>
+                    <td><input type="text" id="username" name="username" size="16" placeholder="username" required autofocus/></td>
+                </tr>
+                <tr>
+                    <td class="title">Password:</td>
+                    <td><input type="password" id="password" name="password" size="16" placeholder="password" required/></td>
+                </tr>
+                <tr>
+                    <td class="title">E-Mail:</td>
+                    <td><input type="email" id="email" name="email" size="16" placeholder="E-Mail" required/></td>
+                </tr>
+                
+                <tr>
+                    <td class="title">Plans: </td>
+                    <td><ul>
+                    <li><input type="radio" name="accType" id="accType" checked="checked" />Solo</li>
+                    <li><input type="radio" name="accType" id="accType" />Team</li>
+                    <li><input type="radio" name="accType" id="accType" />Agency</li>
+                </ul></td>
+                </tr>
+                </table>
+                <button class="css3button2" id="regAcc" name="regAcc" />Create account!</button>
+
+            </form>
+               
+
+            
+        </section>
+    	<footer>
+    		<p>Copyright &copy; 2014 - Keepsake Project Management</p>
+    	</footer>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

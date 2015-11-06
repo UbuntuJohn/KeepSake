@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Keepsake Project Management</title>
+        <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+
+    <body>
+    	<div id="wrapper">
+    	<header>
+    	<nav>
+    		<ul>
+    			<li><a href="index.html">Home</a></li>
+    			<li><a href="plans.html">Plans</a></li>
+    			<li><a href="about.html">About</a></li>
+    			<li><a class="active" href="login.html">Login</a></li>
+    		</ul>
+    	</nav>
+    		<div class="logo"><a href="index.html"><img src="images/logo.png" /></a></div>
+    	</header>
+    	<section class="about-section">
+            <div class="dash">
+                <h1>You have successfully logged out.</h1>
+                <h1>Redirecting... (3 seconds!) <img class='loading' src="images/load.gif" /></h1>
+                
+                <script type="text/javascript">
+                $(document).ready(function() {
+                    var url = "index.html";
+                    var delay = 3000;
+
+                    setTimeout(function() {
+                        window.location = url;
+                    }, delay);
+                });
+                
+        
+                
+                </script>
+            </div>
+        </section>
+    	<footer>
+    		<p>Copyright &copy; 2014 - Keepsake Project Management</p>
+    	</footer>
+    </div>
+    </body>
+</html>

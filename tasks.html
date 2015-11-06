@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Keepsake Project Management</title>
+        <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+
+    <body>
+    	<div id="wrapper">
+    	<header>
+    	<nav>
+    		<ul>
+    			<li><a href="dashboard.html">Home</a></li>
+    			<li><a class="active" href="projects.html">Projects</a> <span class="caret"></span></li>
+    			<li><a href="users.html">Users</a></li>
+    			<li><a href="logout.html">Logout</a></li>
+    		</ul>
+    	</nav>
+    		<div class="logo"><a href="index.html"><img src="images/logo.png" /></a></div>
+    	</header>
+    	<div id="dashboard">
+    		<div id="title">
+    			<div class="page">Tasks</div>
+    		</div>
+    		<div id="content">
+    			<a href="newTask.html">
+                    <ul><a href="newTask.html"><li class="button">Add New +</li></a><li class="delete">Delete -</li></ul>
+    			<h4>Your tasks for Project One</h4>
+                <div id="content-panels">
+        			<div class="panel">
+                        <h4 class="date">Due Date: 12/13/14</h4>
+                        <img class="arrow" src="images/crossarrow.png" />
+        				<h4>Task One</h4>
+        				<p>This is task one's description, it's nice and short.</p>
+        			</div>
+        			<div class="panel">
+                        <h4 class="date">Due Date: 12/16/14</h4>
+                        <img class="arrow" src="images/crossarrow.png" />
+        				<h4>Task Two</h4>
+        				<p>This is task two's description, it's nice and short. But this one
+        					is just a tad bit larger!</p>
+        			</div>
+        			<div class="panel">
+                        <h4 class="date">Due Date: 12/21/14</h4>
+                        <img class="arrow" src="images/crossarrow.png" />
+        				<h4>Task Three</h4>
+        				<p>This is task three's description, it's nice and short. However, this one is okay
+        					lengthed.</p>
+        			</div>
+                </div>
+    		</div>
+    	</div>
+    	<footer>
+    		<p>Copyright &copy; 2014 - Keepsake Project Management</p>
+    	</footer>
+    </div>
+    </body>
+</html>
